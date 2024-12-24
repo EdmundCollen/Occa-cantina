@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #0E2D2F;
+    font-family:Futura-Round;
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+button{
+    border: none;
+    color: #FFEFD7;
+    font-size: 30px;
+    vertical-align: top;
+    z-index: 1;
+    margin: 10px;
+    cursor: pointer;
+}
+button svg{
+    width: 30px;
+    height: 30px;
+}
+
+nav ul{
+    width: 100%;
+}
+nav ul a{
+    display: inline-flex;
+    text-decoration: none;
+    color: #9FA194;
+    font-size: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    cursor: pointer;
+
+    letter-spacing: 2px;
+    height: 50px;
+}
+a:active{
+    background-color: #0b2427;
+    color: #FFEFD7;
+}
+#active{
+    border-bottom: 4px solid #FFEFD7;
+}
+.barrita{
+    border-bottom: 8px solid #FFEFD7;
+    height: 100px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    
+    color: #FFEFD7;
+   
+}
+.comida{
+    margin: 70px;
+    display: block;
+
+    width: 1000px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-size: 50px;
+}
+.comida img{
+    width: 40%;
+    height: 600px;
+    border-radius: 50px;
+}
+.comida span svg{
+    width: 50px;
+    height: 50px;
+}
+.comida div{
+
+    z-index: 1;
+    margin-left: 440px;
+    margin-top: -600px;
+    margin-bottom: 200px;
+}
+.comida div p{
+    font-size: 60px;
+}
+.name{
+    text-align: start;
+    margin-bottom: 20px;
+}
+.price{
+    text-align: start;
+    margin-top: 300px;
+}
+.comid{
+    margin: 70px;
+    display: block;
+
+    width: 1000px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 50px;
+}
+.comid img{
+    width: 40%;
+    height: 600px;
+    border-radius: 50px;
+}
+
+.comid div{
+
+    z-index: 1;
+    margin-left: 440px;
+    margin-top: -600px;
+    margin-bottom: 200px;
+}
+.comid div p{
+    font-size: 60px;
+}
+.comid span svg{
+    width: 50px;
+    height: 50px;
+}
+.comid .price{
+    margin-top: -100px;
+}
+.comid .pric{
+    margin-top: 100px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+}
+footer a{
+    color: #FFEFD7;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
